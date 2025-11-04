@@ -164,4 +164,3 @@ Detail Praktikum
 | 7 | **Total** | **100%** |
 
 ---
->>>>>>> ef1dfb37839eafbaa645d2340f06981d689959d4

@@ -1,5 +1,14 @@
 # P5-CRUD-REST-230104040212: Membangun RESTFUL CRUD API dengan Express
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js 18+">
+  <img src="https://img.shields.io/badge/Express.js-Backend-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js">
+  <img src="https://img.shields.io/badge/npm-Package%20Manager-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm">
+  <img src="https://img.shields.io/badge/VSCode-Editor-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code">
+  <img src="https://img.shields.io/badge/Postman-Testing-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman">
+  <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat-square&logo=git&logoColor=white" alt="Git (Optional)">
+</p>
+
 Proyek ini adalah hasil dari Praktikum #5 mata kuliah **Web Service Engineering** yang berfokus pada pembangunan **RESTFUL CRUD API** sederhana menggunakan **Express.js** untuk resource produk.
 
 ---

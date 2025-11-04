@@ -4,7 +4,7 @@ Proyek ini adalah hasil dari Praktikum #5 mata kuliah **Web Service Engineering*
 
 ---
 
-## 👥 Tim Developer
+## Tim Developer
 
 | Peran | Nama | Profil GitHub |
 | :--- | :--- | :--- |
@@ -13,7 +13,7 @@ Proyek ini adalah hasil dari Praktikum #5 mata kuliah **Web Service Engineering*
 
 ---
 
-## 🤝 Panduan Kontribusi
+## Panduan Kontribusi
 
 Kami sangat menghargai kontribusi dari komunitas. Untuk panduan lengkap tentang cara melaporkan *bug* dan mengajukan Pull Request, silakan merujuk ke dokumen **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
@@ -25,7 +25,7 @@ Kami sangat menghargai kontribusi dari komunitas. Untuk panduan lengkap tentang 
 
 ---
 
-## 🎯 Tujuan Praktikum
+## Tujuan Praktikum
 
 1. Menjelaskan konsep dasar RESTful API dan resource.
 2. Mendesain endpoint CRUD sederhana untuk satu resource.
@@ -38,7 +38,7 @@ Kami sangat menghargai kontribusi dari komunitas. Untuk panduan lengkap tentang 
 
 ---
 
-## 🛠️ Peralatan dan Prasyarat
+## Peralatan dan Prasyarat
 
 | Kategori | Alat/Prasyarat | Keterangan |
 | :--- | :--- | :--- |
@@ -51,7 +51,7 @@ Kami sangat menghargai kontribusi dari komunitas. Untuk panduan lengkap tentang 
 
 ---
 
-## 📂 Struktur Direktori Proyek
+## Struktur Direktori Proyek
 
 Struktur proyek ini rapi dan terorganisir, mengikuti konvensi yang ditetapkan:
 
@@ -73,7 +73,7 @@ P5-CRUD-REST-230104040212
 
 ---
 
-## 💻 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
 1.  Buka folder proyek ini di terminal (Pastikan Anda sudah memiliki Node.js dan npm terinstal).
 2.  Instal semua dependensi yang diperlukan (Express.js):
@@ -89,7 +89,7 @@ P5-CRUD-REST-230104040212
 
 ---
 
-## 🌐 Desain Endpoint (RESTful CRUD untuk `/products`)
+## Desain Endpoint (RESTful CRUD untuk `/products`)
 
 Resource utama yang digunakan adalah `/products`. Setiap produk memiliki field minimal: `id`, `name`, `price`, dan `stock`.
 
@@ -117,7 +117,7 @@ Pengujian dilakukan menggunakan alat seperti **Postman**, **Thunder Client**, at
 
 ---
 
-## 📝 Format Respon JSON (Konsisten)
+## Format Respon JSON (Konsisten)
 
 API ini menggunakan format respon yang konsisten untuk kasus sukses dan error:
 
@@ -143,7 +143,7 @@ API ini menggunakan format respon yang konsisten untuk kasus sukses dan error:
 }
 ```
 
-## 🧪 Hasil Pengujian (Evidence)
+## Hasil Pengujian (Evidence)
 Semua fungsionalitas CRUD telah diuji menggunakan Postman/Thunder Client, dan hasilnya didokumentasikan dalam bentuk screenshot di folder `evidence/`.
 Detail Praktikum
 1. Topik: Membangun RESTful CRUD API dengan `Express`.
@@ -151,7 +151,7 @@ Detail Praktikum
 3. Dosen Pengampu: Muhayat, M.IT.
 4. Durasi: 1 pertemuan x 150 menit.
 
-## ⚖️ Rubrik Penilaian (Total 100)
+## Rubrik Penilaian (Total 100)
 
 | No | Aspek Penilaian | Bobot |
 | :---: | :--- | :---: |

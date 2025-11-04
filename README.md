@@ -73,8 +73,6 @@ P5-CRUD-REST-230104040212
 
 ---
 
----
-
 ## 💻 Cara Menjalankan Proyek
 
 1.  Buka folder proyek ini di terminal (Pastikan Anda sudah memiliki Node.js dan npm terinstal).
@@ -102,6 +100,20 @@ Resource utama yang digunakan adalah `/products`. Setiap produk memiliki field m
 | **3** | `/products` | **POST** | Menambah produk baru (Create) | `{ "name": "...", "price": 0, "stock": 0 }` | **201** + object |
 | **4** | `/products/:id` | **PUT** | Memperbarui data 1 produk (Replace) | `{ "name": "...", "price": 0, "stock": 0 }` | **200** + object / **404** |
 | **5** | `/products/:id` | **DELETE** | Menghapus 1 produk berdasarkan `id` | - | **200** / **204** / **404** |
+
+---
+
+## Panduan Pengujian API
+
+Pengujian dilakukan menggunakan alat seperti **Postman**, **Thunder Client**, atau `curl`. Pastikan server sudah berjalan di `http://localhost:3000`.
+
+| Operasi | Method | Endpoint | Keterangan |
+| :--- | :---: | :--- | :--- |
+| **Get All** | **GET** | `http://localhost:3000/products` | Ambil semua produk. |
+| **Get by ID** | **GET** | `/products/1` | Ambil produk dengan ID 1. |
+| **Create** | **POST** | `/products` | Tambah produk baru. |
+| **Update** | **PUT** | `/products/1` | Ubah produk dengan ID 1. |
+| **Delete** | **DELETE** | `/products/1` | Hapus produk dengan ID 1. |
 
 ---
 
@@ -138,3 +150,17 @@ Detail Praktikum
 2. Aktivitas: Membangun RESTful API menggunakan Express.js dengan fitur CRUD (Create, Read, Update, Delete) untuk resource products.
 3. Dosen Pengampu: Muhayat, M.IT.
 4. Durasi: 1 pertemuan x 150 menit.
+
+## ⚖️ Rubrik Penilaian (Total 100)
+
+| No | Aspek Penilaian | Bobot |
+| :---: | :--- | :---: |
+| 1 | Struktur project & file rapi | 15% |
+| 2 | Server berjalan tanpa error | 15% |
+| 3 | Endpoint CRUD berfungsi semua | 35% |
+| 4 | Status code & response JSON benar | 15% |
+| 5 | Evidence lengkap | 10% |
+| 6 | Dokumentasi singkat | 10% |
+| 7 | **Total** | **100%** |
+
+---
